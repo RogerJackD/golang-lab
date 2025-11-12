@@ -2,13 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("hello word! Golang")
-
-	const miNumero int = 123
-
-	fmt.Println("mi numero es:", miNumero)
-
+func esPar(num int) bool {
+	return num%2 == 0
 }
 
-// comando para ejecutar archivo go: go run main.go
+func main() {
+	fmt.Println("¿4 es par?", esPar(4))
+	fmt.Println("¿7 es par?", esPar(7))
+}
