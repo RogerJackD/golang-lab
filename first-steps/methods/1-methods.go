@@ -10,6 +10,14 @@ func invertirTexto(texto string) string {
 	return string(runas)
 }
 
+func factorial(n int) int {
+	if n == 0 {
+		return 1
+	}
+	return n * factorial(n-1)
+}
+
 func main() {
 	fmt.Println("Invertido:", invertirTexto("golang"))
+	fmt.Println("Factorial de 5:", factorial(5))
 }
