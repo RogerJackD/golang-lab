@@ -16,3 +16,4 @@ func main() {
 	lista := []string{"go", "java", "go", "python", "go", "java"}
 	fmt.Println(contadorPalabras(lista))
 }
+	
